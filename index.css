@@ -1,0 +1,193 @@
+/* Feel free to edit CSS of body if you'd like. We provide you the light gray background color and font family in the body styling */
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  /* padding: 8px; */
+  background-color: #e6ecf0;
+}
+
+/* TODO: Create CSS for your Twitter Mockup */
+header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 46px;
+  border: 2px solid white;
+  background-color: white;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+
+header ul li{
+    margin-right: 6%;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    width: 140px;
+    background-color: white;
+    color: black;
+}
+
+header ul li:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+header ul li a:hover{
+  color: blue;
+}
+
+header ul i:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+header img{
+  margin-top: 10px;
+  width: 40px;
+  height: 30px;
+}
+
+header button{
+  margin-top: 15px;
+  margin-right: 10px;
+  font-size: 15px;
+  border: 1px solid #00ACED;
+  height: 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: #00ACED;
+}
+
+main{
+  max-width: 1190px;
+  margin: 56px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.col1{
+  width: 290px;
+  height: 253px;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.banner img{ 
+  position: relative;
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+  border-width: 44px;
+}
+
+.icon{
+  position: absolute;
+  width: 286px;
+  display: flex;
+  border: 2px solid white;
+  background-color: white;
+  margin-top: -5px;
+  gap:6px;
+}
+.icon img{
+  width: 70px;
+  height: 70px;
+  border: 1px solid black chocolate ;
+
+  border-radius: 50%;
+  margin-top: -40px;
+}
+
+.info{
+  display: flex;
+  margin-top: 30px;
+  background-color: white;
+}
+
+.info h3{
+  opacity: 50%;
+}
+
+.infonum{
+  display: flex;
+  margin-top: -18px;
+  background-color: white;
+  color: #00ACED;
+}
+
+.col2{
+  width: 400px;
+  height: 395px;
+  border: 1px solid black;
+}
+
+.tweets1{
+  margin: 2px;
+  border: 1px solid white;
+  background-color: white;
+  min-height: 51px;
+}
+
+.tweets1 img{
+  width: 48px;
+  height: 48px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.h{
+  display: flex;
+  font-size: 12px;
+  margin-top: -45px;
+  margin-left: 52px;
+}
+
+.p{
+  font-size: 12px;
+  margin-top: -16px;
+  margin-left: 50px;
+}
+
+.col3{
+  width: 290px;
+  height: 194px;
+  border: 1px solid black;
+}
+
+.head{
+  border: 1px solid white;
+  background-color: white;
+}
+
+.linguini{
+  display: flex;
+  font-size: 12px;
+  margin-top: -55px;
+  margin-left: 56px;
+}
+
+.button{
+  font-size: 12px;
+  margin-top: -2px;
+  margin-left: 65px;
+  height: 20px;
+  width: 55px;
+}
+
+.button button{
+  font-size: 15px;
+  border: 1px solid #00ACED;
+  height: 20px;
+  border-radius: 10px;
+  color: #00ACED;
+  background-color: white;
+}
+
+.button button:hover{
+  background-color: #00ACED;
+  color: white;
+}
